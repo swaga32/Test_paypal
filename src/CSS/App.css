@@ -1,0 +1,203 @@
+/* How to change fonts? */
+
+body {
+  margin: 0px;
+  /* How to add text margin? */
+  --color-primary: #003087;
+}
+
+
+
+#LoginSignup {
+  display: flex;
+}
+
+#LoginSignup a {
+  margin-left: 10px;
+  margin-right: 10px;
+  line-height: 32px;
+}
+
+#navSignup {
+  background-color: var(--color-primary);
+  color: white;
+  border-radius: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+#NavLinks img {
+  height: 20px;
+  width: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(34, 33, 33);
+}
+
+#blueArrow {
+  padding-left: 5px;
+}
+
+#RewardSignUp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #f5f7fa;
+}
+
+#RewardSignUp a {
+  background-color: #003087;
+  color: white;
+  font-weight: bold;
+  border-radius: 32px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+#RewardSignUp img {
+  width: 100vw;
+}
+
+#PayPalForBusiness {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top: 1px solid #c4c4c4;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+/* #PayPalForBusiness hr {
+  /* how to make this gray? When I do 1px it's too thick */
+  /* border: thin solid gray; I looked it up: certain colors make themselves look thinner with the correct background? */
+/* } */ 
+
+#PayPalForBusiness a {
+  color: #1072eb;
+  font-size: x-large;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.section p,
+.section a {
+  font-size: large;
+}
+
+/* Do you have to add your own margin-block-start/end to nullify browser default? */
+.header {
+  padding-top: 52px;
+  font-size: xxx-large;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+.link {
+  color: #1072eb;
+}
+
+.secondaryParagraph {
+  color: #504f50;
+}
+
+/* image wasnt centered and blue arrow as too big. When I removed this, image was centered and arrow was ok*/
+/* #PayIn4 img {
+  width: 100vw;
+} */
+
+#SignUp {
+  color: white;
+  background-color: #121661;
+  padding-top: 86px;
+  padding-bottom: 96px;
+}
+
+/* can you include spaces in ID? */
+#SignUpLink {
+  display: flex;
+  justify-content: center;
+}
+
+/* how to get it to just stretch up to the alotted margin for .section class */
+#SignUp a {
+  border-radius: 32px;
+  color: #121661;
+  font-weight: bold;
+  text-align: center;
+  background-color: white;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+#SignUpTicker {
+  display: flex;
+  justify-content: center;
+  margin: 60px 0px 60px 0px;
+  height: 52px;
+  gap: 4px;
+}
+
+#SignUpTicker div {
+  background-color: #1072eb;
+  border-radius: 4px;
+  width: 40px;
+  text-align: center;
+  line-height: 52px;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+#Brands img {
+  width: 45vw;
+}
+
+#grid {
+  display: inline-grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* How to get the gap between them bigger? */
+#Footer nav {
+  display: flex;
+  gap: 4px;
+  flex-flow: wrap;
+  line-height: 2;
+  font-weight: bold;
+}
+/* Why was hr invisible? */
+#Footer hr {
+  border: 0;
+  width: 100%;             
+  background-color: #c4c4c4;
+  height: 1px;
+}
+
+/* Why is Feedback a different font/higher than other text? */
+
+#CorporateLinks * {
+  color: gray;
+}
+
+/* Why is div text hovering slightly above a tag text? */
+#LegalLinks * {
+  color: gray;
+}
+
+/* Why do I also get big gap with this? */
+/* #ClientLinks a, div {
+  margin-right: 4px;
+} */
